@@ -1,0 +1,29 @@
+form {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+
+#addme-btn {
+  border-radius: 4rem;
+  border: none;
+  height: 40px;
+  width: 100px;
+  background-color: rgba(4, 154, 14, 0.795);
+  font-size: 15px;
+  color: rgb(6, 6, 6);
+  box-shadow: 0 6px 0 greenyellow;
+}
+#addme-btn:hover{
+  background-color: rgba(4, 154, 14, 0.795);
+
+}
+#addme-btn:active{
+  box-shadow: none;
+  transform: translateY(6px);
+}
