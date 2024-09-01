@@ -8,22 +8,35 @@ form {
 h1 {
   text-align: center;
 }
-
-#addme-btn {
+li {
+  list-style-type:lower-roman;
+}
+#task-btn {
+  margin-left: 5%;
   border-radius: 4rem;
   border: none;
-  height: 40px;
+  height: 20px;
   width: 100px;
-  background-color: rgba(4, 154, 14, 0.795);
+  background-color: rgb(24, 133, 24);
   font-size: 15px;
-  color: rgb(6, 6, 6);
-  box-shadow: 0 6px 0 greenyellow;
+  color: rgb(249, 245, 245);
+  box-shadow: 0 3px 0 greenyellow;
 }
-#addme-btn:hover{
+#task-btn:hover{
   background-color: rgba(4, 154, 14, 0.795);
+  scale: 1.1;
 
 }
-#addme-btn:active{
+#task-btn:active{
   box-shadow: none;
-  transform: translateY(6px);
+  transform: translateY(3px);
+}
+
+#input-txt{
+  border-radius: 4rem;
+  border: 2px solid rgb(24, 133, 24);
+}
+
+#input-txt::placeholder{
+  text-align: center;
 }
