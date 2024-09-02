@@ -1,8 +1,22 @@
+body {
+  background-image: url("../public/b3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
 form {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  border-radius: 4rem;
+  padding: 20px;
   margin: auto;
   width: 50%;
-  border: 3px solid green;
-  padding: 10px;
   text-align: center;
 }
 h1 {
@@ -39,4 +53,9 @@ li {
 
 #input-txt::placeholder{
   text-align: center;
+}
+#bin{
+  position: relative;
+  left: 60px;
+  bottom: 20px;
 }
