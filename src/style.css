@@ -90,3 +90,11 @@ li {
   left: 60px;
   bottom: 20px;
 }
+
+#check-box{
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 25px;
+  top: 25px;
+}
