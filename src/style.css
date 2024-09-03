@@ -25,17 +25,20 @@ form {
   border-radius: 4rem;
   padding: 20px;
   margin: auto;
-  width: 50%;
+  width: 25%;
   text-align: center;
 }
 h1 {
   text-align: center;
+  font-size: xxx-large;
+  color: rgb(79, 186, 79);
+  
 }
 li {
   list-style-type:lower-roman;
   width: 50%;
   background-color:rgb(234, 234, 234);
-  font-family: "SUSE", sans-serif;
+  font-family: "Handjet", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
@@ -48,10 +51,10 @@ li {
   margin-left: 5%;
   border-radius: 4rem;
   border: none;
-  height: 20px;
-  width: 100px;
+  height: 30px;
+  width: 70px;
   background-color: rgb(24, 133, 24);
-  font-size: 15px;
+  font-size: 20px;
   color: rgb(255, 255, 255);
   box-shadow: 0 3px 0 greenyellow;
   font-family: "Handjet", sans-serif;
@@ -71,14 +74,16 @@ li {
 #input-txt{
   border-radius: 4rem;
   border: 2px solid rgb(24, 133, 24);
+  height: 25px;
 }
 
 #input-txt::placeholder{
   text-align: center;
   font-family: "Handjet", sans-serif;
-  font-weight: 400;
+  font-weight: 800;
   font-size: medium;
   font-style: inherit;
+  color: green;
 }
 #bin{
   position: relative;
