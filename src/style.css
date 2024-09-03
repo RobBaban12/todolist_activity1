@@ -94,7 +94,8 @@ li {
 #check-box{
   height: 20px;
   width: 20px;
-  position: relative;
-  left: 25px;
-  top: 25px;
+  position: absolute;
+  bottom: 60px;
+  right: 80px;
+  
 }

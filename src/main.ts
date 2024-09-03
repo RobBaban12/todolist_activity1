@@ -11,6 +11,7 @@ addTaskButton.addEventListener('click', () => {
       const li = document.createElement('li');
       const btn = document.createElement('img');
       const check_btn = document.createElement('img')
+      
       check_btn.src = "public/checkbox.png";
       check_btn.id = "check-box";
 
@@ -33,6 +34,8 @@ addTaskButton.addEventListener('click', () => {
       btn.onclick = () =>{
       taskList.removeChild(li)
       taskList.removeChild(btn)
+      taskList.removeChild(check_btn)
+
       }
 
       taskInput.value = '';
