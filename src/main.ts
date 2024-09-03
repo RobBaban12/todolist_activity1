@@ -10,6 +10,7 @@ addTaskButton.addEventListener('click', () => {
     if (task !== '') {
       const li = document.createElement('li');
       const btn = document.createElement('img');
+      li.id = "li"
       btn.src = 'public/bin.svg';
       btn.id = 'bin';
       li.textContent = task;
