@@ -54,7 +54,7 @@ li {
   height: 30px;
   width: 70px;
   background-color: rgb(24, 133, 24);
-  font-size: 20px;
+  font-size: 12px;
   color: rgb(255, 255, 255);
   box-shadow: 0 3px 0 greenyellow;
   font-family: "Handjet", sans-serif;
@@ -98,4 +98,14 @@ li {
   bottom: 60px;
   right: 80px;
   
+}
+
+.deadline {
+  font-size: small;
+  color: gray;
+}
+
+.expired {
+  color: red;
+  text-decoration: line-through;
 }
